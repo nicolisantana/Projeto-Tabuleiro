@@ -1,0 +1,35 @@
+.body{
+    background-color: #f47af8;
+}
+.preto{
+    background-color: #8e8b8b;
+    }
+    
+    .branco{
+      background-color: #ffffff;
+    }
+    .tabela{
+      top:0%;
+      left:0%; 
+      position: absolute;
+    }
+    
+    #cavalo{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        animation: cavalo 10s infinite;
+    }
+    
+    @keyframes cavalo{
+        0%{top: 6px; left: 57px;}
+        12.5%{top: 105px; left: 105px;}
+        25%{top: 205px; left: 155px;}
+        37.5%{top: 305px; left: 205px;}
+        50%{top: 354px; left: 305px;}
+        62.5%{top: 305px; left: 205px;}
+        75%{top: 205px; left: 155px;}
+        87.5%{top: 105px; left: 105px;}
+        100%{top: 6px; left: 57px;}
+    }
+    
